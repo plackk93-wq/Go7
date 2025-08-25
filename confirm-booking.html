@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>تأكيد الحجز</title><link rel="stylesheet" href="css/style.css"></head><body><div class="container"><header class="header"><div class="brand"><b>راحة كلين</b><span class="badge">موثوق</span></div></header><nav class="nav"><a href="index.html" class="">الرئيسية</a><a href="hourly.html" class="">بالساعة</a><a href="resident.html" class="">مقيمة</a><a href="hours.html" class="">نوع ساعات</a><a href="week.html" class="">نوع الأسبوع</a><a href="months.html" class="">نوع الشهور</a><a href="confirm-booking.html" class="active">تأكيد الحجز</a><a href="confirm-payment.html" class="">تأكيد الدفع</a><a href="confirm-refund.html" class="">تأكيد الاسترداد</a><a href="activation.html" class="">رمز التفعيل</a><a href="payment.html" class="">الدفع</a><a href="faq.html" class="">الأسئلة</a><a href="about.html" class="">من نحن</a><a href="contact.html" class="">تواصل</a></nav>
+<section class="panel">
+  <h1>تأكيد الحجز</h1>
+  <p>املأ تفاصيل الحجز التالية وسيتم التواصل معك:</p>
+  <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+    <div class="grid">
+      <div class="card"><label>الاسم</label><input name="name" required></div>
+      <div class="card"><label>الهاتف</label><input name="phone" required></div>
+      <div class="card"><label>الخدمة</label><select name="service"><option>سائق خاص</option><option>عامل/ـة منزلية</option><option>طباخ/ـة</option><option>مساعد/ـة شخصية</option></select></div>
+      <div class="card"><label>التاريخ والوقت</label><input name="datetime" placeholder="مثال: 2025-08-26 16:00"></div>
+      <div class="card"><label>العنوان</label><input name="address"></div>
+    </div>
+    <div class="list" style="margin-top:12px"><button class="big-btn" type="submit">إرسال الطلب</button></div>
+  </form>
+</section>
+<div class="footer">© 2025 — راحة كلين.</div></div></body></html>
